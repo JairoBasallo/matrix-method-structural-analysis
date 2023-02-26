@@ -1,6 +1,6 @@
-## Cálculo matricial de estructuras
+# Cálculo matricial de estructuras
 
-Este es un programa en Python que permite calcular la solución matricial para estructuras en dos dimensiones. El programa utiliza una hoja de cálculo de Excel para introducir las propiedades de los elementos, los valores de las fuerzas y los desplazamientos. Los resultados se imprimen en la consola y también se guardan en una hoja de Excel.
+Este repositorio contiene una función en Python que permite hacer el cálculo matricial de estructuras para estructuras en dos dimensiones a través de una hoja de cálculo de Excel para introducir las propiedades de los elementos, los valores de las fuerzas y los desplazamientos. La función es capaz de ensamblar la matriz de rigidez global a partir de los datos ingresados en la hoja de cálculo, leer las fuerzas de empotramiento perfecto, las condiciones de desplazamiento de los nodos y las reacciones desconocidas, y finalmente, resolver el sistema de ecuaciones.
 
 ### Dependencias
 El programa utiliza las siguientes bibliotecas de Python:
@@ -31,6 +31,3 @@ El programa tiene las siguientes limitaciones:
 - Solo funciona para estructuras en dos dimensiones.
 - La hoja de Excel debe tener un formato específico para que el programa pueda leer los datos correctamente.
 - El programa no verifica si la matriz de rigidez global es simétrica y definida positiva.
-
-### Licencia
-Este programa se distribuye bajo la licencia MIT.
