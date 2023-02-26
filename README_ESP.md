@@ -31,3 +31,5 @@ El programa tiene las siguientes limitaciones:
 - Solo funciona para estructuras en dos dimensiones.
 - La hoja de Excel debe tener un formato específico para que el programa pueda leer los datos correctamente.
 - El programa no verifica si la matriz de rigidez global es simétrica y definida positiva.
+- las unidades en el excel deben ser concordantes entre si
+- no se puede tener celdas vacias, por lo menos se deben llenar con un cero.
